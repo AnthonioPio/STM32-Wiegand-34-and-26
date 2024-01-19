@@ -1,0 +1,15 @@
+../Core/Inc/Interface/wiegand_handler.h:77:2:WIEGAND::WIEGAND(uint8_t, uint16_t, uint16_t, TIM_HandleTypeDef*, uint32_t)	1
+../Core/Inc/Interface/wiegand_handler.h:92:7:void WIEGAND::exti_callback(uint16_t)	11
+../Core/Inc/Interface/wiegand_handler.h:130:7:void WIEGAND::start()	17
+../Core/Inc/Interface/wiegand_handler.h:183:7:bool WIEGAND::check_parity(uint32_t, uint32_t)	5
+../Core/Inc/Interface/wiegand_handler.h:211:7:void WIEGAND::reset()	1
+../Core/Inc/Interface/wiegand_handler.h:226:7:void WIEGAND::timer_callback(TIM_HandleTypeDef*)	4
+../Core/Src/main.cpp:69:5:int main()	1
+../Core/Src/main.cpp:126:6:void SystemClock_Config()	3
+../Core/Src/main.cpp:173:13:void MX_TIM11_Init()	2
+../Core/Src/main.cpp:204:13:void MX_GPIO_Init()	1
+../Core/Src/main.cpp:226:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	1
+../Core/Src/main.cpp:231:6:void HAL_GPIO_EXTI_Callback(uint16_t)	1
+../Core/Src/main.cpp:241:6:void Error_Handler()	1
+../Core/Src/main.cpp:250:1:void __static_initialization_and_destruction_0(int, int)	3
+../Core/Src/main.cpp:250:1:cpp)	1
