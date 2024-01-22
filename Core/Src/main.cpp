@@ -112,6 +112,8 @@ int main(void)
 		  // find data.card_id from your stored memory
 		  // or send data.card_id to another device to validate
 		  // you can also use the debugger to check the data received from wiegand device
+		  
+		  reader.data.ready = false; // set to 'data.ready' after all of the implimentations.
 	  }
 
     /* USER CODE BEGIN 3 */
